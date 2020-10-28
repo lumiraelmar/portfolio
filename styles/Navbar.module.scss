@@ -19,7 +19,7 @@
     display: flex;
     list-style: none;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     @media screen and (max-width: $mobileSize) {
       font-size: 0.9rem;
     }
@@ -28,7 +28,8 @@
       margin-right: 27px;
       cursor: pointer;
       border-bottom: 2.5px solid transparent;
-      transition: .5s;
+      transition: .5s color;
+      transition: .5s border;
       @media screen and (max-width: $mobileSize) {
         margin: 0 10px;
       }
