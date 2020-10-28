@@ -9,7 +9,7 @@ export default function Footer() {
       <h2 className={styles.title}>Contact</h2>
       <div className={styles.wrapper}>
         <FontAwesomeIcon className={styles.icon} icon={faEnvelope} />
-        <p className={styles.email}>lumiraelmar@gmail.com</p>
+        <p className={styles.email}>luciamirelmann@gmail.com</p>
       </div>
       <p className={styles.footer}>Made with ♥ by <a href='https://github.com/lumiraelmar' className={styles.link}>Lu Miraelmar</a></p>
     </>

@@ -10,6 +10,7 @@ export default function Home() {
       <Head>
         <title>Lucia Mirelmann</title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://use.fontawesome.com/releases/v5.12.1/css/svg-with-js.css" rel="stylesheet"></link>
       </Head>
       <Navbar />
       <Main />
