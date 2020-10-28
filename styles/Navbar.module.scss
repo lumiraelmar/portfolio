@@ -1,0 +1,41 @@
+@import './variables.scss';
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  padding: 15px 0;
+  margin-right: 25px;
+  background-color: $color1;
+  @media screen and (max-width: $mobileSize) {
+    justify-content: space-evenly;
+    padding: 15px 5px;
+    margin-right: 0;
+  }
+  .navbar {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 1.5rem;
+    @media screen and (max-width: $mobileSize) {
+      font-size: 0.9rem;
+    }
+    .link {
+      text-decoration: none;
+      margin-right: 27px;
+      cursor: pointer;
+      border-bottom: 2.5px solid transparent;
+      transition: .5s;
+      @media screen and (max-width: $mobileSize) {
+        margin: 0 10px;
+      }
+      &:hover {
+        color: $color3;
+        border-bottom: 2.5px solid $color3;
+      }
+    }
+  }
+}

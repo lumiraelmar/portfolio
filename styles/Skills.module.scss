@@ -1,0 +1,51 @@
+@import './variables.scss';
+
+.id {
+  position: absolute;
+  margin-top: -50px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+  padding: 20px 0;
+  .title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .iconWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    .icon {
+      &:hover {
+        .name {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+      .name {
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+        text-align: center;
+        margin-top: 10px;
+        text-transform: capitalize;
+        @media screen and (max-width: $mobileSize) {
+          display: none;
+        }
+      }
+      .img {
+        height: 90px;
+        object-fit: cover;
+        margin: 0 15px;
+        @media screen and (max-width: $mobileSize) {
+          height: 60px;
+          margin: 10px 15px;
+        }
+      }
+    }
+  }
+}

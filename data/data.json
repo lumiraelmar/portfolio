@@ -1,0 +1,84 @@
+[
+  { 
+  "skills": [
+  {
+    "title": "git",
+    "img": "https://i.postimg.cc/rFwDXR5s/git.png"
+  },
+  {
+    "title": "html",
+    "img": "https://i.postimg.cc/VsDNRs28/html-5.png"
+  },
+  {
+    "title": "css",
+    "img": "https://i.postimg.cc/VLfCfVPY/css.png"
+  },
+  {
+    "title": "sass",
+    "img": "https://i.postimg.cc/HnhdCnC8/sass.png"
+  },
+  {
+    "title": "javascript",
+    "img": "https://i.postimg.cc/sDxg0dRZ/javascript.png"
+  },
+  {
+    "title": "react",
+    "img": "https://i.postimg.cc/ZRJT8Xcn/react.png"
+  },
+  {
+    "title": "next.js",
+    "img": "https://i.postimg.cc/Y2WgCvXv/IMG-4104.png"
+  }
+],
+  "projects": [
+    {
+      "title": "Credit Card Form",
+      "desc": "Formulario de tarjeta de credito",
+      "img": "https://i.postimg.cc/qMQqZb38/Screenshot-2020-10-27-at-18-37-43.png",
+      "github": "https://github.com/lumiraelmar/creditcardForm",
+      "link": "https://tarjeta-magica.vercel.app/",
+      "tech": ["react", "scss"]
+    },
+    {
+      "title": "Courflix",
+      "desc": "Imitacion de Netflix",
+      "img": "https://i.postimg.cc/MGfGHzrD/Screenshot-2020-10-27-at-18-38-37.png",
+      "github": "https://github.com/lumiraelmar/courflix",
+      "link": "https://courflix-lumiraelmar.now.sh/",
+      "tech": ["react", "scss"]
+    },
+    {
+      "title": "Studio Ghibli Random Movie",
+      "desc": "Generador random de peliculas de Studio Ghibli",
+      "img": "https://i.postimg.cc/NjMFh66Z/Screenshot-2020-10-27-at-18-38-17.png",
+      "github": "https://github.com/lumiraelmar/studioghibli-random",
+      "link": "https://studioghibli-random.now.sh/",
+      "tech": ["react", "scss"]
+    },
+    {
+      "title": "Github Usercards",
+      "desc": "Buscador de usuarios de Github",
+      "img": "https://i.postimg.cc/kgp472wG/Screenshot-2020-10-27-at-18-38-31.png",
+      "github": "https://github.com/lumiraelmar/github-user-cards",
+      "link": "https://github-usercards-lumiraelmar.now.sh/",
+      "tech": ["js", "scss", "html"]
+    },
+    {
+      "title": "Blog (WIP)",
+      "desc": "",
+      "img": "",
+      "github": "https://github.com/lumiraelmar/blog",
+      "link": "https://miraelmarblog.vercel.app/",
+      "tech": ["next.js", "scss"]
+    },
+    {
+      "title": "Portfolio",
+      "desc": "",
+      "img": "",
+      "github": "https://github.com/lumiraelmar/portfolio",
+      "link": "https://luciamirelmann.vercel.app/",
+      "tech": ["next.js", "scss"]
+    }
+  ]
+}
+]
