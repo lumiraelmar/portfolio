@@ -9,15 +9,32 @@
 }
 .wrapper {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 30px 0 10px;
-  .icon {
-    font-size: 1.8rem;
-    margin-right: 10px;
+  .fontawesomeWrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    .icon {
+      font-size: 1.8rem;
+      margin-right: 10px;
+    }
+    .email {
+      font-size: 1.3rem;
+    }
   }
-  .email {
-    font-size: 1.3rem;
+  .fontawesomeWrapper {
+    display: flex;
+    align-items: center;
+    .icon {
+      font-size: 1.8rem;
+      margin-right: 10px;
+    }
+    .location {
+      font-size: 1.3rem;
+    }
   }
 }
 .footer {

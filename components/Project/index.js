@@ -4,9 +4,13 @@ export default function Project({project}) {
   const { title, desc, img, link, github, tech } = project
   return (
     <div className={styles.container}>
-      <img className={styles.img} src={img} />
+      {img ?
+        <img className={styles.img} src={img} />
+        :
+        <img className={styles.img} src='https://images.unsplash.com/photo-1585166169032-551d4ea843fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' />
+      }
       <h3 className={styles.title}>{title}</h3>
-      {/* <p className={styles.desc}>{desc}</p> */}
+      <p className={styles.desc}>{desc}</p>
       <div className={styles.links}>
         <a className={styles.link} href={link} target="_blank">Link</a>
         <a className={styles.link} href={github} target="_blank">Github</a>

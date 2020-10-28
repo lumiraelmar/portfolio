@@ -22,7 +22,7 @@
     "img": "https://i.postimg.cc/sDxg0dRZ/javascript.png"
   },
   {
-    "title": "react",
+    "title": "react.js",
     "img": "https://i.postimg.cc/ZRJT8Xcn/react.png"
   },
   {
@@ -32,51 +32,59 @@
 ],
   "projects": [
     {
-      "title": "Credit Card Form",
-      "desc": "Formulario de tarjeta de credito",
-      "img": "https://i.postimg.cc/qMQqZb38/Screenshot-2020-10-27-at-18-37-43.png",
-      "github": "https://github.com/lumiraelmar/creditcardForm",
-      "link": "https://tarjeta-magica.vercel.app/",
-      "tech": ["react", "scss"]
-    },
-    {
       "title": "Courflix",
-      "desc": "Imitacion de Netflix",
-      "img": "https://i.postimg.cc/MGfGHzrD/Screenshot-2020-10-27-at-18-38-37.png",
+      "desc": "Imitación de Netflix",
+      "img": "https://i.postimg.cc/cCbXQPHD/Screenshot-2020-10-28-at-19-41-23.png",
       "github": "https://github.com/lumiraelmar/courflix",
       "link": "https://courflix-lumiraelmar.now.sh/",
       "tech": ["react", "scss"]
     },
     {
       "title": "Studio Ghibli Random Movie",
-      "desc": "Generador random de peliculas de Studio Ghibli",
-      "img": "https://i.postimg.cc/NjMFh66Z/Screenshot-2020-10-27-at-18-38-17.png",
+      "desc": "Generador random de películas de Studio Ghibli, utilizando la ghibliapi",
+      "img": "https://i.postimg.cc/1tyCPp2K/Screenshot-2020-10-28-at-19-38-17.png",
       "github": "https://github.com/lumiraelmar/studioghibli-random",
       "link": "https://studioghibli-random.now.sh/",
       "tech": ["react", "scss"]
     },
     {
+      "title": "Credit Card Form",
+      "desc": "Formulario para información de tarjetas",
+      "img": "https://i.postimg.cc/LXvysJMF/Screenshot-2020-10-28-at-19-41-42.png",
+      "github": "https://github.com/lumiraelmar/creditcardForm",
+      "link": "https://tarjeta-magica.vercel.app/",
+      "tech": ["react", "scss"]
+    },
+    {
       "title": "Github Usercards",
-      "desc": "Buscador de usuarios de Github",
-      "img": "https://i.postimg.cc/kgp472wG/Screenshot-2020-10-27-at-18-38-31.png",
+      "desc": "Buscador de usuarios de Github, utilizando la github API",
+      "img": "https://i.postimg.cc/rp1nvhnm/Screenshot-2020-10-28-at-19-41-52.png",
       "github": "https://github.com/lumiraelmar/github-user-cards",
       "link": "https://github-usercards-lumiraelmar.now.sh/",
       "tech": ["js", "scss", "html"]
     },
     {
-      "title": "Blog (WIP)",
-      "desc": "",
-      "img": "",
-      "github": "https://github.com/lumiraelmar/blog",
-      "link": "https://miraelmarblog.vercel.app/",
+      "title": "Portfolio",
+      "desc": "Portfolio personal",
+      "img": "https://i.postimg.cc/wB844KkZ/Screenshot-2020-10-28-at-19-43-44.png",
+      "github": "https://github.com/lumiraelmar/portfolio",
+      "link": "https://luciamirelmann.vercel.app/",
       "tech": ["next.js", "scss"]
     },
     {
-      "title": "Portfolio",
-      "desc": "",
+      "title": "Newsletter",
+      "desc": "Newsletter, solo estilos en css",
+      "img": "https://i.postimg.cc/nrz39nHj/Screenshot-2020-10-28-at-19-39-36.png",
+      "github": "https://github.com/lumiraelmar/blog-newsletter",
+      "link": "https://blog-newsletter.now.sh/",
+      "tech": ["html", "css"]
+    },
+    {
+      "title": "Blog (WIP)",
+      "desc": "Blog creado utilizando la API de dev.to",
       "img": "",
-      "github": "https://github.com/lumiraelmar/portfolio",
-      "link": "https://luciamirelmann.vercel.app/",
+      "github": "https://github.com/lumiraelmar/blog",
+      "link": "https://miraelmarblog.vercel.app/",
       "tech": ["next.js", "scss"]
     }
   ]
