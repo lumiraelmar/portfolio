@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className={styles.container} id='aboutme'>
       <section className={styles.section}>
-        <img className={styles.img} src='https://i.postimg.cc/brhGTFxH/IMG-3369.jpg' />
+        <img className={styles.img} src='https://i.postimg.cc/brhGTFxH/IMG-3369.jpg' alt='personal photo'/>
         <h2 className={styles.name}>Lucia Mirelmann</h2>
         <h3 className={styles.title}>Front-end Developer</h3>
         <a className={styles.link} href='https://github.com/lumiraelmar' target="_blank"><FontAwesomeIcon className={styles.icon} icon={faGithub} /></a>

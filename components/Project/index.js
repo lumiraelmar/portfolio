@@ -7,7 +7,7 @@ export default function Project({project}) {
       {img ?
         <img className={styles.img} src={img} />
         :
-        <img className={styles.img} src='https://images.unsplash.com/photo-1585166169032-551d4ea843fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' />
+        <img className={styles.img} src='https://images.unsplash.com/photo-1585166169032-551d4ea843fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' alt='project preview'/>
       }
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.desc}>{desc}</p>

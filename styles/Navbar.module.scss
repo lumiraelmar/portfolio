@@ -10,10 +10,13 @@
   padding: 15px 0;
   margin-right: 25px;
   background-color: $color1;
-  @media screen and (max-width: $mobileSize) {
+  @media screen and (max-width: $tabletSize) {
     justify-content: space-evenly;
     padding: 15px 5px;
     margin-right: 0;
+  }
+  @media screen and (max-width: $smallMobileSize) {
+    display: none;
   }
   .navbar {
     display: flex;
@@ -22,6 +25,7 @@
     font-size: 1.3rem;
     @media screen and (max-width: $mobileSize) {
       font-size: 0.9rem;
+      
     }
     .link {
       text-decoration: none;
