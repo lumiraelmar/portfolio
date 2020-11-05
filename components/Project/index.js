@@ -5,9 +5,9 @@ export default function Project({project}) {
   return (
     <div className={styles.container}>
       {img ?
-        <img className={styles.img} src={img} />
+        <img className={styles.img} src={img} alt='project preview'/>
         :
-        <img className={styles.img} src='https://images.unsplash.com/photo-1585166169032-551d4ea843fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' alt='project preview'/>
+        <img className={styles.img} src='https://images.unsplash.com/photo-1585166169032-551d4ea843fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' alt='project in progress img'/>
       }
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.desc}>{desc}</p>
